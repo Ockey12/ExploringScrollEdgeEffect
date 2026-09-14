@@ -7,6 +7,10 @@ struct ContentView: View {
             Tab("First", systemImage: "list.bullet") {
                 FirstTabView()
             }
+
+            Tab("Second", systemImage: "list.bullet") {
+                SecondTabView()
+            }
         }
     }
 }
