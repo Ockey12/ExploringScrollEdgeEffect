@@ -1,17 +1,16 @@
 import SwiftUI
-import Playgrounds
+import UIKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            Tab("First", systemImage: "list.bullet") {
+                FirstTabView()
+            }
+        }
     }
 }
 
 #Preview {
     ContentView()
-}
-
-#Playground {
-    _ = 1 + 2
 }
