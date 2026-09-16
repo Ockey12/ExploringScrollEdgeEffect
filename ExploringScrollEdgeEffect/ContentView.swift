@@ -11,6 +11,10 @@ struct ContentView: View {
             Tab("Second", systemImage: "list.bullet") {
                 SecondTabView()
             }
+
+            Tab("Interaction", systemImage: "list.bullet") {
+                AddInteractionTabView()
+            }
         }
     }
 }
